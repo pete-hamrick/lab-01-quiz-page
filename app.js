@@ -1,7 +1,7 @@
 // import functions and grab DOM elements
 import { isYes } from './utils.js';
 const quizButton = document.getElementById('quiz-button');
-// const results = document.getElementById('results');
+const results = document.getElementById('results');
 
 
 // set event listeners 
@@ -32,10 +32,10 @@ quizButton.addEventListener('click', ()=>{
             score++;
         }
         console.log('final score', score);
+        // update DOM to reflect the new state
+        results.textContent = `${name} you got ${score} right!`;
     } else {
         console.log('user cancelled');
     }
-
-  // update DOM to reflect the new state
 
 });

@@ -1,11 +1,10 @@
-## Making a plan
-1) Make a drawing of your app. Simple "wireframes"
-2) Once you have a drawing, name the HTML elements you'll need to realize your vision
-3) For each HTML element ask: Why do I need this?
-4) Once we know _why_ we need each element, think about how to implement the "Why" as a "How"
-5) Is there some state we need to initialize?
-6) Find all the 'events' (user clicks, form submit, etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?
-7) Think about how to validate each of your steps
-8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
-9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
+## My plan
+1) Put in the basic HTML with an image, facts about me, and a button.
+2) Add id's to the button and to a field below the button where the results print, these are so I can read a button click and print the result of my quiz so the user can see. ACP
+3) Time to write tests. I want a test for true and false(user inputs of yes or no). My function will be called isYes.
+4) Once tests are working I'll create a utils.js file to export my function from to all files that need it. I'll use toLowerCase so that any input('yes' or 'Yes' or 'YES') all read the same to the function. Then I'll use an if else with a variable word to see if the user input === 'yes' or 'y'. ACP
+5) Once the function is working i'll replace the results.textContent with the users name and score on the test so the state is updated. ACP
+6) Once the quiz works and after commiting i'll work on the HTML and CSS to make my app more unique and me. ACP
+7) Then I'll just read through and see if anything can be simplified. ACP
+8) Submit the assignment!
 

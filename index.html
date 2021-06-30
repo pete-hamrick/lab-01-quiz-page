@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <title>About Pete</title>
 </head>
 
 <body>
@@ -19,27 +22,37 @@
         </div>
     </header>
     <main>
-        <section>
-            <h1>All about Pete</h1>
+        <div class="container">
+            <section class="title">
+                <h1>All about Pete</h1>
 
-            <img id="pete-img" src="assets\farmerPete.jpg" alt="Pete">
+                <img id="pete-img" src="assets\farmerPete.jpg" alt="Pete">
 
-            <p>
-                Hello, my name is Pete. It's short for Peter, but please call me Pete.
-            </p>
-            <p>Here are some of my favorite things:</p>
-            <ul>
-                <li>Disc Golf</li>
-                <li>Lounging with my cats</li>
-                <li>Cooking</li>
-                <li>My favorite dish is fried rice</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Take a quiz about me!</h2>
-            <button id="quiz-button">Click to Launch Quiz</button>
-            <p id="results">Results Will Go Here</p>
-        </section>
+            </section>
+
+            <section class="bio">
+            
+                <p>
+                    Hello, my name is Pete. It's short for Peter, but please call me Pete.
+                </p>
+            
+                <p>Here are some of my favorite things:</p>
+            
+                <ul>
+                    <li>Disc Golf</li>
+                    <li>Lounging with my cats</li>
+                    <li>Cooking</li>
+                    <li>My favorite dish is fried rice</li>
+                </ul>
+
+            </section>
+            
+            <section class="quiz">
+                <h2>Take a quiz about me!</h2>
+                <button id="quiz-button">Click to Launch Quiz</button>
+                <p id="results">Results Will Go Here</p>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>

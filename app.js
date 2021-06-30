@@ -31,9 +31,9 @@ quizButton.addEventListener('click', ()=>{
         if (isYes(ans4)) {
             score++;
         }
-        console.log('final score', score);
+        alert('Thanks for taking the quiz! Check out your results below!');
         // update DOM to reflect the new state
-        results.textContent = `${name} you got ${score} right!`;
+        results.textContent = `${name} you got ${score} of 4 right! That's ${Math.floor((score / 4) * 100)}%`;
     } else {
         console.log('user cancelled');
     }

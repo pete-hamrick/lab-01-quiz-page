@@ -1,1 +1,14 @@
 /* add home page styles here */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+main {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#pete-img {
+    width: 30%;
+    border-radius: 50%;
+}

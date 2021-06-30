@@ -12,3 +12,10 @@ main {
     width: 30%;
     border-radius: 50%;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
